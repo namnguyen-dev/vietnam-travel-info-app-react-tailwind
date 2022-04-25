@@ -154,8 +154,6 @@ import sontra1 from './assets/places/danang/sontra1.jpg';
 import sontra2 from './assets/places/danang/sontra2.jpg';
 import haivan from './assets/places/danang/haivan.jpg';
 import dragonBridge from './assets/places/danang/dragonBridge.jpg';
-import bana1 from './assets/places/danang/bana1.jpg';
-import bana2 from './assets/places/danang/bana2.jpg';
 import saoBeach from './assets/places/phuquoc/saoBeach.jpg';
 import baidaiBeach from './assets/places/phuquoc/baidaiBeach.jpg';
 import anthoi from './assets/places/phuquoc/anthoi.jpg';
@@ -172,10 +170,12 @@ import glassBridge from './assets/blogs/glassBridge.jpg';
 import travelLeisure from './assets/blogs/travelLeisure.jpg';
 import reuters from './assets/blogs/reuters.jpg';
 
-export const navData = [
+export const leftLinks = [
   { href: '/#featured', title: 'Tours' },
   { href: '/#tips', title: 'Tips' },
   { href: '/#services', title: 'Services' },
+];
+export const rightLinks = [
   { href: '/#places', title: 'Places' },
   { href: '/#blogs', title: 'Blogs' },
   { href: '/#contact', title: 'Contact' },

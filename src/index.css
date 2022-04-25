@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@layer components {
+  .section {
+    @apply py-24 px-0;
+  }
+
+  .section-center {
+    @apply px-4 md:px-6 lg:px-8 py-6 lg:py-8 mx-auto sm:max-w-full lg:max-w-7xl;
+  }
+
+  .nav-links-container {
+    @apply items-center hidden space-x-6 lg:flex uppercase text-xl;
+  }
+
+  .nav-link {
+    @apply tracking-wide font-extrabold transition-colors duration-200 hover:text-green-500 hover:underline hover:underline-offset-4 sm:hover:underline-offset-8;
+  }
+
+  .company-name {
+    @apply font-expletus ml-2 text-xl font-semibold tracking-wide uppercase;
+  }
+}
