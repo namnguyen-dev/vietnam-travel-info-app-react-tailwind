@@ -74,11 +74,12 @@ const Navbar = () => {
               <div className="absolute -top-4 left-0 w-full text-black bg-green-50 text-left p-5  border rounded shadow-sm">
                 <div className="flex items-center justify-between mb-4">
                   <div>
-                    <a
-                      href="/"
+                    <Link
+                      to="/"
                       aria-label="Reverie Travel"
                       title="Reverie Travel"
                       className="inline-flex items-center"
+                      onClick={() => setIsMenuOpen(false)}
                     >
                       <img
                         src={navLogo}
@@ -86,7 +87,7 @@ const Navbar = () => {
                         alt="company logo"
                       />
                       <span className="company-name">Reverie Travel</span>
-                    </a>
+                    </Link>
                   </div>
                   <div>
                     <button
