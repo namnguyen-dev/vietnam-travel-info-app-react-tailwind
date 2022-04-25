@@ -4,6 +4,7 @@ import {
   Blogs,
   Contact,
   FeaturedTours,
+  Galleries,
   Hero,
   NewTours,
   PlacesToGo,
@@ -29,6 +30,7 @@ const HomePage = () => {
       <TravelTips />
       <WhyUs />
       <Contact />
+      <Galleries />
     </>
   );
 };
