@@ -63,4 +63,8 @@ html {
   .btn {
     @apply px-6 py-3 text-sm focus:outline-none focus:ring shadow rounded-3xl transition duration-200 ease-in-out
   }
+
+   .read-more {
+    @apply capitalize font-bold cursor-pointer pl-1;
+  }
 }

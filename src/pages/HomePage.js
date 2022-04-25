@@ -1,6 +1,7 @@
 import React from 'react';
 import {
   About,
+  Blogs,
   FeaturedTours,
   Hero,
   NewTours,
@@ -21,6 +22,7 @@ const HomePage = () => {
       <NewTours />
       <Reviews />
       <Promotion />
+      <Blogs />
     </>
   );
 };
