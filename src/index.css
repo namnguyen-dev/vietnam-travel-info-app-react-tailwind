@@ -59,4 +59,8 @@ html {
   .place-link-half {
     @apply w-1/2;
   }
+
+  .btn {
+    @apply px-6 py-3 text-sm focus:outline-none focus:ring shadow rounded-3xl transition duration-200 ease-in-out
+  }
 }
