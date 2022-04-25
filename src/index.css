@@ -27,7 +27,6 @@ html {
   .company-name {
     @apply font-expletus ml-2 text-xl font-semibold tracking-wide uppercase;
   }
-
   .section-title {
     @apply text-center mb-10 text-4xl uppercase font-extrabold;
   }
@@ -36,9 +35,6 @@ html {
     @apply w-20 h-1 mt-4 mx-auto;
   }
 
-  .grid-container {
-    @apply grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3;
-  }
 
   .places-container {
     @apply flex flex-wrap w-1/2;
@@ -60,24 +56,20 @@ html {
     @apply w-1/2;
   }
 
-  .btn {
-    @apply px-6 py-3 text-sm focus:outline-none focus:ring shadow rounded-3xl transition duration-200 ease-in-out;
+  .grid-container {
+    @apply grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3;
   }
 
-  .read-more {
-    @apply capitalize font-bold cursor-pointer pl-1;
-  }
-
-  .transition-smooth {
-    @apply transition-all duration-300 ease-in;
-  }
-
-  .img-container {
-    @apply overflow-hidden rounded-xl;
+  .link {
+    @apply underline text-blue-400 cursor-pointer;
   }
 
   .quote {
     @apply border-l-4 border-gray-500 pl-4 my-6 italic rounded font-semibold;
+  }
+
+  .tips-container {
+    @apply relative container mx-auto sm:px-4;
   }
 
   .article-container {
@@ -92,7 +84,27 @@ html {
     @apply font-bold text-xl mb-4;
   }
 
-  .link {
-    @apply underline text-blue-400 cursor-pointer;
+  .notice {
+    @apply italic font-bold text-gray-600;
+  }
+
+  .read-more {
+    @apply bg-transparent border-transparent capitalize font-bold cursor-pointer pl-1;
+  }
+
+  .footer-link {
+    @apply p-2 border rounded-full border-white/25 hover:opacity-75;
+  }
+
+  .img-container {
+    @apply overflow-hidden rounded-xl;
+  }
+
+  .transition-smooth {
+    @apply transition-all duration-300 ease-in;
+  }
+
+  .btn {
+    @apply px-6 py-3 text-sm focus:outline-none focus:ring shadow rounded-3xl transition duration-200 ease-in-out
   }
 }
