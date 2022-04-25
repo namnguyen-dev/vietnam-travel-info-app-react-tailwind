@@ -39,4 +39,24 @@ html {
   .grid-container {
     @apply grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3;
   }
+
+   .places-container {
+    @apply flex flex-wrap w-1/2;
+  }
+
+  .place-title {
+    @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center font-bold italic text-gray-800 px-2 text-lg sm:text-4xl lg:text-5xl opacity-0 group-hover:opacity-100 transition duration-500 ease-in;
+  }
+
+  .place-img {
+    @apply w-full object-cover h-full object-center block group-hover:opacity-40 rounded-lg group-hover:scale-110 duration-500 ease-in-out;
+  }
+
+  .place-link {
+    @apply w-full after:absolute after:top-0 after:left-0 after:w-full after:h-full after:border-2 after:border-gray-100 after:rounded-2xl after:opacity-0 hover:after:opacity-100 hover:after:scale-75 transition duration-500 ease-in  md:p-2 p-1 relative overflow-hidden rounded-lg;
+  }
+
+  .place-link-half {
+    @apply w-1/2;
+  }
 }
