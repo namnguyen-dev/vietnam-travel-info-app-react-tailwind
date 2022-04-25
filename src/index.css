@@ -71,4 +71,12 @@ html {
   .transition-smooth {
     @apply transition-all duration-300 ease-in;
   }
+
+  .img-container {
+    @apply overflow-hidden rounded-xl;
+  }
+
+   .quote {
+    @apply border-l-4 border-gray-500 pl-4 my-6 italic rounded font-semibold;
+  }
 }
