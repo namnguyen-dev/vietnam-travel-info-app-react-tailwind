@@ -13,7 +13,7 @@ import Promotion from './Promotion';
 import Blogs from './Blogs';
 import TravelTips from './TravelTips';
 import WhyUs from './WhyUs';
-
+import Contact from './Contact';
 
 export {
   Navbar,
@@ -30,5 +30,6 @@ export {
   Promotion,
   Blogs,
   TravelTips,
-  WhyUs
+  WhyUs,
+  Contact,
 };
