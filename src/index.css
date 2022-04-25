@@ -31,4 +31,8 @@ html {
   .section-title {
     @apply text-center mb-10 text-4xl uppercase font-extrabold;
   }
+
+  .underline {
+    @apply w-20 h-1 mt-4 mx-auto;
+  }
 }
