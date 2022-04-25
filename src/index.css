@@ -27,4 +27,8 @@ html {
   .company-name {
     @apply font-expletus ml-2 text-xl font-semibold tracking-wide uppercase;
   }
+
+  .section-title {
+    @apply text-center mb-10 text-4xl uppercase font-extrabold;
+  }
 }
