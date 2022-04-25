@@ -76,11 +76,11 @@ html {
     @apply overflow-hidden rounded-xl;
   }
 
-   .quote {
+  .quote {
     @apply border-l-4 border-gray-500 pl-4 my-6 italic rounded font-semibold;
   }
 
-   .article-container {
+  .article-container {
     @apply max-w-prose mx-auto py-8;
   }
 
@@ -90,5 +90,9 @@ html {
 
   .tip-title {
     @apply font-bold text-xl mb-4;
+  }
+
+  .link {
+    @apply underline text-blue-400 cursor-pointer;
   }
 }
