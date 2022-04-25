@@ -10,6 +10,7 @@ import {
   Reviews,
   Services,
   TravelTips,
+  WhyUs,
 } from '../components';
 
 const HomePage = () => {
@@ -25,6 +26,7 @@ const HomePage = () => {
       <Promotion />
       <Blogs />
       <TravelTips />
+      <WhyUs />
     </>
   );
 };
