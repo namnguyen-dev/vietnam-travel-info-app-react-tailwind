@@ -8,7 +8,7 @@ import motorbike from '../assets/tips/transport/motorbike.jpg';
 import cycling from '../assets/tips/transport/cycling.jpg';
 import { ImageHeader, TipsHeader } from '../components';
 
-const TransportTips = () => {
+const TransportTipsPage = () => {
   return (
     <section className="section">
       <div className="section-center">
@@ -205,4 +205,4 @@ const TransportTips = () => {
   );
 };
 
-export default TransportTips;
+export default TransportTipsPage;
