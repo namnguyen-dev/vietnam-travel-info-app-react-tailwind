@@ -5,6 +5,7 @@ import {
   Hero,
   NewTours,
   PlacesToGo,
+  Reviews,
   Services,
 } from '../components';
 
@@ -17,6 +18,7 @@ const HomePage = () => {
       <FeaturedTours />
       <PlacesToGo />
       <NewTours />
+      <Reviews />
     </>
   );
 };

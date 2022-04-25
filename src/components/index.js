@@ -8,6 +8,7 @@ import Services from './Services';
 import FeaturedTours from './FeaturedTours';
 import PlacesToGo from './PlacesToGo';
 import NewTours from './NewTours';
+import Reviews from './Reviews';
 
 export {
   Navbar,
@@ -20,4 +21,5 @@ export {
   FeaturedTours,
   PlacesToGo,
   NewTours,
+  Reviews,
 };
