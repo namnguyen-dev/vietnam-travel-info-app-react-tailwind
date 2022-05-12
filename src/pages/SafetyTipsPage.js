@@ -247,17 +247,17 @@ const SafetyTips = () => {
               <h4 className="notice">For female travelers</h4>
               <p>
                 Vietnam is generally a safe country to travel and female
-                travelers will find themselves welcome. The Vietnamese are
-                still quite conservative, so it's best to respect the local
-                culture by not baring too much skin.
+                travelers will find themselves welcome. The Vietnamese are still
+                quite conservative, so it's best to respect the local culture by
+                not baring too much skin.
               </p>
               <p>
-                Solo female travelers can expect to be approached with
-                questions about why they are traveling alone. The enquiries are
-                usually harmless and borne out of curiousity. Crime against
-                women is uncommon in Vietnam. Nonetheless it's wise to not be
-                alone on the streets late at night, and to take a taxi if you're
-                heading back late.
+                Solo female travelers can expect to be approached with questions
+                about why they are traveling alone. The enquiries are usually
+                harmless and borne out of curiousity. Crime against women is
+                uncommon in Vietnam. Nonetheless it's wise to not be alone on
+                the streets late at night, and to take a taxi if you're heading
+                back late.
               </p>
             </div>
           </article>
