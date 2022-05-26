@@ -71,7 +71,7 @@ const Navbar = () => {
               </svg>
             </button>
             {isMenuOpen && (
-              <div className="absolute -top-4 left-0 w-full text-black bg-green-50 text-left p-5  border rounded shadow-sm">
+              <div className="animate-fade-in-down absolute top-0 left-0 w-full text-black bg-green-50 text-left p-5  border rounded shadow-sm">
                 <div className="flex items-center justify-between mb-4">
                   <div>
                     <Link
